@@ -1,15 +1,15 @@
 {
 	"name": "sol1/silverstripe-vimeofeed",
 	"type": "silverstripe-module",
-	"description": "Periodically check vimeo channel for new uploads, and import them into silverstripe, based on LittleGiant's silverstripe-YoutubeFeed",
+	"description": "Vimeo integration, based on LittleGiants silverstripe-YoutubeFeed",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Matthew Streatfield",
+			"homepage": "https://github.com/sol1/silverstripe-vimeofeed"
 		}
 	],
-	"require":
-	{
+	"require": {
 		"vimeo/vimeo-api": "^1.2"
 	}
 }
