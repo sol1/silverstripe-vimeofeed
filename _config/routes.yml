@@ -1,0 +1,7 @@
+---
+Name: 'vimeofeed-routes'
+After: 'framework/routes#coreroutes'
+---
+Director:
+  rules:
+    'vimeo//$Action/$ID': 'VimeoFeedBulkImportTask'

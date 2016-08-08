@@ -1,0 +1,17 @@
+{
+	"name": "vimeofeed",
+	"description": "Periodically check vimeo channel for new uploads, and import them into silverstripe, based on LittleGiant's silverstripe-YoutubeFeed",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "module", "vimeo", "user", "front-end"],
+	"authors": [
+	{
+		"name": "Matthew Streatfield"
+	}
+	],
+
+	"require":
+	{
+    	"silverstripe/cms": ">=3.0",
+		"vimeo/vimeo-api": "^1.2"
+	}
+}

@@ -1,0 +1,12 @@
+---
+Name: vimeofeed-extensions
+After: 'cms/*', 'framework/*'
+---
+
+SiteConfig:
+  extensions:
+    - 'VimeoSiteConfigExtension'
+
+ContentController:
+  extensions:
+    - 'VimeoFeedContentControllerExtension'
