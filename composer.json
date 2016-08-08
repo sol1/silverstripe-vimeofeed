@@ -1,5 +1,5 @@
 {
-	"name": "vimeofeed",
+	"name": "sol1/silverstripe-vimeofeed",
 	"description": "Periodically check vimeo channel for new uploads, and import them into silverstripe, based on LittleGiant's silverstripe-YoutubeFeed",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe", "module", "vimeo", "user", "front-end"],
