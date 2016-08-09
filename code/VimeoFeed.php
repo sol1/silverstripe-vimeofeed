@@ -60,6 +60,7 @@ class VimeoFeed extends Controller
      */
     public function getRecentUploads($limit = 50)
     {
+        $siteConfig = SiteConfig::current_site_config();
         if ($this->getIsAuthenticated()) {
             //get latest videos
             $response = $this->lib->request('/users/' . $siteConfig->VimeoFeed_Username . '/videos', array('per_page' => $limit, 'sort' => 'date', 'direction' => 'desc'), 'GET');
@@ -84,6 +85,7 @@ class VimeoFeed extends Controller
      */
     public function getAllUploads($limit_per_page = 50)
     {
+        $siteConfig = SiteConfig::current_site_config();
         $count = 0;
         //if user authenticated get all videos from channel
         if ($this->getIsAuthenticated()) {
